@@ -1,0 +1,25 @@
+titles
+    title_id -- primary key
+    title -- varchar
+employees -- contains 7 fields
+    emp_id -- primary key integer
+    emp_title_id -- foreign key, or varchar
+    hire_date - Date
+    others are varchar
+departments -- 2 fields
+    dept_no -- primary key and varchar
+    dept_name -- varchar
+dept_manager -- 2 fields -- junction table
+    dept_no -- primary key and varchar; also a foreign key that references dept_no from departments table
+    emp_no -- INT; also a Foreign key that references emp_no from employees table
+    Primary key is a composition of the dept_no and emp_no
+dept_emp
+    emp_no -- INT
+    dept_no -- varchar
+    emp_no -- Foreign key that references emp_no from employees table
+    dept_no -- Foreign key that references dept_no form departments table
+    primary key is a composite of the emp_no and dept_no
+salaries
+    emp_no -- INT primary key/ foreign key for employees table
+    salary INT
+
