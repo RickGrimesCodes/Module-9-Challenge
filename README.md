@@ -28,3 +28,7 @@ Hello graders! This challanges was awesome introduction to SQL!
 
 * `analysis.sql` - analysis script
 * `create_table.sql` - create table script
+
+## Screenshot of diagram and of the sql script being executed
+![img](https://github.com/user-attachments/assets/64e93545-2448-4cbe-9829-6173490d3bf8)
+![image](https://github.com/user-attachments/assets/c8c6510e-ac5d-459a-bdd6-bb42bdf70014)
